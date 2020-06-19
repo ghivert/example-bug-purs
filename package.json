@@ -1,0 +1,29 @@
+{
+  "name": "example-bug-purs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Guillaume Hivert <hivert.is.coming@gmail.com>",
+  "url": "https://github.com/ghivert/example-bug-purs",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^1.0.4",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.4.3",
+    "postcss-preset-env": "^6.7.0",
+    "purescript": "^0.13.8",
+    "spago": "^0.15.3"
+  },
+  "staticFiles": {
+    "staticPath": "public/static",
+    "watcherGlob": "**"
+  },
+  "browserslist": "Chrome 70"
+}
